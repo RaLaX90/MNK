@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+      <FILENAME>myform.h</FILENAME>
+      <LINE>244</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Чтение недопустимых данных из "temp_arr[i]":  доступный для чтения объем равен "public: int __clrcall System::Windows::Forms::DataGridView::ColumnCount::get(void)()*4" байт, однако считать можно только "8" байт.</DESCRIPTION>
+    <FUNCTION>MNK::MyForm::button1_Click</FUNCTION>
+    <DECORATED>?button1_Click@MyForm@MNK@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z</DECORATED>
+    <FUNCLINE>219</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>236</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"i" равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "i&lt;this-&gt;dataGridView1-&gt;get()")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "j&lt;this-&gt;dataGridView1-&gt;get()")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"i" является входными данными для "System::Windows::Forms::DataGridViewRowCollection::default::get" (объявлено в &lt;no file&gt;:0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>52</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"j" может быть равно 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Продолжить этот цикл (предполагается "j&lt;this-&gt;dataGridView1-&gt;get()")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"i" является входными данными для "System::Windows::Forms::DataGridViewRowCollection::default::get" (объявлено в &lt;no file&gt;:0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция чтения из "temp_arr[i][1]" (доступный для чтения диапазон: от 0 до 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+      <FILENAME>myform.h</FILENAME>
+      <LINE>243</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Переполнение буфера при записи в "temp_arr":  доступный для записи объем равен "public: int __clrcall System::Windows::Forms::DataGridView::RowCount::get(void)()*4" байт, однако записать можно только "8" байт.</DESCRIPTION>
+    <FUNCTION>MNK::MyForm::button1_Click</FUNCTION>
+    <DECORATED>?button1_Click@MyForm@MNK@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z</DECORATED>
+    <FUNCLINE>219</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"temp_arr" является массивом из 1 элементов (4 байт)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>236</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "i&lt;this-&gt;dataGridView1-&gt;get()")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "j&lt;this-&gt;dataGridView1-&gt;get()")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Выйти из этого цикла ("j&lt;this-&gt;dataGridView1-&gt;get()" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>48</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"i" может быть равно 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Продолжить этот цикл (предполагается "i&lt;this-&gt;dataGridView1-&gt;get()")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "j&lt;this-&gt;dataGridView1-&gt;get()")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"i" является входными данными для "System::Windows::Forms::DataGridViewRowCollection::default::get" (объявлено в &lt;no file&gt;:0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция записи в "temp_arr[1]" (доступный для записи диапазон: от 0 до 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+      <FILENAME>myform.h</FILENAME>
+      <LINE>250</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Использование неинициализированной памяти "*temp_arr".</DESCRIPTION>
+    <FUNCTION>MNK::MyForm::button1_Click</FUNCTION>
+    <DECORATED>?button1_Click@MyForm@MNK@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z</DECORATED>
+    <FUNCLINE>219</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Инициализация "*temp_arr" не выполнена</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить этот цикл (предполагается, что "i&lt;this-&gt;dataGridView1-&gt;get()+1" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>236</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить этот цикл (предполагается, что "i&lt;this-&gt;dataGridView1-&gt;get()" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "i&lt;this-&gt;dataGridView1-&gt;get()")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"*temp_arr" используется, но, возможно, не инициализировано</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+      <FILENAME>myform.h</FILENAME>
+      <LINE>250</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Чтение недопустимых данных из "temp_arr":  доступный для чтения объем равен "public: int __clrcall System::Windows::Forms::DataGridView::RowCount::get(void)()*4" байт, однако считать можно только "8" байт.</DESCRIPTION>
+    <FUNCTION>MNK::MyForm::button1_Click</FUNCTION>
+    <DECORATED>?button1_Click@MyForm@MNK@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z</DECORATED>
+    <FUNCLINE>219</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"temp_arr" является массивом из 1 элементов (4 байт)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>236</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "i&lt;this-&gt;dataGridView1-&gt;get()")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"i" может быть равно 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Продолжить этот цикл (предполагается "i&lt;this-&gt;dataGridView1-&gt;get()")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\универ\4 курс\трпп\метод наименьших квадратов\mnk\mnk</FILEPATH>
+        <FILENAME>myform.h</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция чтения из "temp_arr[1]" (доступный для чтения диапазон: от 0 до 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
